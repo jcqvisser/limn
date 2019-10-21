@@ -1,0 +1,19 @@
+{
+  "name": "limn",
+  "version": "1.0.0",
+  "description": "depict or describe in painting or words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcqvisser/limn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcqvisser/limn/issues"
+  },
+  "homepage": "https://github.com/jcqvisser/limn#readme"
+}
