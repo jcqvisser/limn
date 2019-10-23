@@ -14,4 +14,4 @@ blocks:
           commands:
             - checkout
             - cache restore website-build
-            - aws s3 sync "dist" "s3://limn" --acl "bucket-owner-full-control"
+            - aws s3 sync "dist" "s3://limn" --acl "bucket-owner-full-control" --cache-control no-store
