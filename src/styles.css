@@ -1,0 +1,29 @@
+:root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 32px;
+}
+
+.block {
+  width: 320px;
+  height: 320px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  /* JavaScript yellow */
+  background-color: #f7df1e;
+}
+
+.fancy-text {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  text-align: right;
+}
