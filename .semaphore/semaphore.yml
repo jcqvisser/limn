@@ -1,5 +1,5 @@
 version: v1.0
-name: "Deploy website"
+name: Build Limn
 agent:
   machine:
     type: e1-standard-2
@@ -31,7 +31,7 @@ blocks:
             - cache store website-build dist
 
 promotions:
-  - name: Production deploy
+  - name: Production Deploy
     pipeline_file: production-deploy.yml
     auto_promote_on:
       - result: passed
