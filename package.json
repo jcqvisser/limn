@@ -4,7 +4,8 @@
   "description": "depict or describe in painting or words",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "serve-locally": "serve dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "mini-css-extract-plugin": "^0.8.0",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.1.2",
+    "serve": "^11.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   }
