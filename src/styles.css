@@ -1,29 +1,58 @@
-:root {
+#scribble-canvas {
+  touch-action: none;
+}
+
+.view-container {
+  position: relative;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 
-  padding: 32px;
+  overflow: hidden;
 }
 
-.block {
-  width: 320px;
-  height: 320px;
-  padding: 32px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-
-  /* JavaScript yellow */
-  background-color: #f7df1e;
+.scroll-handle {
+  width: 50px;
 }
 
-.fancy-text {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: 80px;
-  text-align: right;
+.document-container {
+  height: 100vh;
+  position: relative;
+
+  flex-grow: 1;
+  border-right: 1px solid black;
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  z-index: 1;
+}
+
+textarea {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  z-index: 1;
+}
+
+.in-front {
+  z-index: 5;
+}
+
+.toggle-fab {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+
+  z-index: 999999;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  background: red;
 }

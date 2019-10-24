@@ -10,9 +10,21 @@
   </head>
 
   <body>
-    <div class="block">
-      <p class="fancy-text">TODO</p>
+    <div class="view-container">
+      <div id="document-container" class="document-container">
+        <canvas
+          class="in-front"
+          width="10px"
+          height="2000px"
+          id="scribble-canvas"
+        ></canvas>
+        <textarea id="text-area" rows="100" cols="140"></textarea>
+      </div>
+      <div class="scroll-handle"></div>
+
+      <a id="toggle-fab" class="toggle-fab">!!!</a>
     </div>
+
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
 </html>
