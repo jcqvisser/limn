@@ -5,7 +5,8 @@
 - `git clone https://github.com/jcqvisser/limn.git && cd limn`
 - `npm install`
 - `npm run build`
-- `npm run serve-locally` and go to the address displayed using any device on your local network
+- `npm start`
+  - This also serves the app on your local network for testing, find it on `<your-ip>:8080`
 
 ## Deployment
 
