@@ -4,9 +4,9 @@
 
 - `git clone https://github.com/jcqvisser/limn.git && cd limn`
 - `npm install`
-- `npm run build`
 - `npm start`
-  - This also serves the app on your local network for testing, find it on `<your-ip>:8080`
+  - This starts `webpack-dev-server`. It is not set up to automatically refresh when the code changes.
+  - This also serves the app on your local network for testing, find it on `<your-ip>:8080`.
 
 ## Deployment
 
