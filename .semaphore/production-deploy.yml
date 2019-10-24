@@ -15,4 +15,5 @@ blocks:
             - checkout
             - cache restore website-build
             - aws s3 sync "dist" "s3://limn" --acl "bucket-owner-full-control" --cache-control no-store
+            - aws cloudfront create-invalidation --distribution-id E3N4FBKGTAIV8D --paths "/index.html"
             - cache delete website-build
