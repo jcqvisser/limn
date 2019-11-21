@@ -70,6 +70,8 @@ export class InputTracker {
 
   end() {
     this.endCallback(this.points);
+    delete this.points;
+    this.points = [];
     this.started = false;
   }
 }
