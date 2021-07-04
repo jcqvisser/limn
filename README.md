@@ -10,8 +10,8 @@
 
 ## Deployment
 
-- w-Limn is hosted on https://limn.jcqvisser.com-
-- -The master branch is automatically deployed using Semaphore (https://jcqvisser.semaphoreci.com/projects/limn)-
+- ~~Limn is hosted on https://limn.jcqvisser.com~~
+- ~~The master branch is automatically deployed using Semaphore (https://jcqvisser.semaphoreci.com/projects/limn)~~
 - This is no longer deployed
 
 ## Name
